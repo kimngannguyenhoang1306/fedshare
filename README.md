@@ -11,3 +11,9 @@ chmod +x start-fedshare.sh
 The number of clients and servers could be changed in `config.py` and `start-*.sh` file.
 For checking results and training process, check `logs` folder.
 
+To kill running process:
+```
+lsof -i :<port>
+kill -9 <PID>
+```
+
