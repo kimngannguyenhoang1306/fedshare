@@ -1,6 +1,6 @@
 import numpy as np
 from tensorflow.keras.datasets import mnist
-from tensorflow.keras.layers import (Dense)
+from tensorflow.keras.layers import Input, Dense
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.utils import to_categorical
 
@@ -49,7 +49,9 @@ def load_test_dataset():
 
 def get_model():
     model = Sequential()
-    model.add(Dense(350, input_shape=(784,), activation='relu'))
+    #model.add(Dense(350, input_shape=(784,), activation='relu'))
+    model.add(Input(shape=(784,)))  # This is the correct way to specify the input shape
+    model.add(Dense(350, activation='relu'))
     model.add(Dense(50, activation='relu'))
     model.add(Dense(10, activation='softmax'))
 

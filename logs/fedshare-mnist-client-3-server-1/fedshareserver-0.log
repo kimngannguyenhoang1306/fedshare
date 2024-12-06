@@ -6,11 +6,15 @@ Press CTRL+C to quit
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 929-640-565
-127.0.1.1 - - [06/Dec/2024 09:27:55] "POST /recv HTTP/1.1" 200 -
+127.0.1.1 - - [06/Dec/2024 09:51:43] "POST /recv HTTP/1.1" 200 -
 {'response': 'ok'}
 [DOWNLOAD] Secret of 127.0.1.1 received. size: 2342836
 [SECRET] Secret opened successfully.
-127.0.1.2 - - [06/Dec/2024 09:27:55] "POST /recv HTTP/1.1" 200 -
+127.0.1.3 - - [06/Dec/2024 09:51:43] "POST /recv HTTP/1.1" 200 -
+{'response': 'ok'}
+[DOWNLOAD] Secret of 127.0.1.3 received. size: 2342836
+[SECRET] Secret opened successfully.
+127.0.1.2 - - [06/Dec/2024 09:51:44] "POST /recv HTTP/1.1" 200 -
 {'response': 'ok'}
 [DOWNLOAD] Secret of 127.0.1.2 received. size: 2342836
 [SECRET] Secret opened successfully.
@@ -18,31 +22,19 @@ Press CTRL+C to quit
 {'response': 'ok'}
 {'response': 'ok'}
 [UPLOAD] Sent aggregated weights to the master, size: 2342836
-[DOWNLOAD] Total download cost so far: 4685672
+[DOWNLOAD] Total download cost so far: 7028508
 [UPLOAD] Total upload cost so far: 2342836
 ********************** [ROUND] Round 1 completed **********************
 {'response': 'ok'}
-127.0.1.2 - - [06/Dec/2024 09:28:06] "POST /recv HTTP/1.1" 200 -
+127.0.1.2 - - [06/Dec/2024 09:51:54] "POST /recv HTTP/1.1" 200 -
 {'response': 'ok'}
 [DOWNLOAD] Secret of 127.0.1.2 received. size: 2342836
 [SECRET] Secret opened successfully.
-127.0.1.1 - - [06/Dec/2024 09:28:06] "POST /recv HTTP/1.1" 200 -
+127.0.1.3 - - [06/Dec/2024 09:51:54] "POST /recv HTTP/1.1" 200 -
 {'response': 'ok'}
-[DOWNLOAD] Secret of 127.0.1.1 received. size: 2342836
+[DOWNLOAD] Secret of 127.0.1.3 received. size: 2342836
 [SECRET] Secret opened successfully.
-{'response': 'ok'}
-{'response': 'ok'}
-{'response': 'ok'}
-[UPLOAD] Sent aggregated weights to the master, size: 2342836
-[DOWNLOAD] Total download cost so far: 9371344
-[UPLOAD] Total upload cost so far: 4685672
-********************** [ROUND] Round 2 completed **********************
-{'response': 'ok'}
-127.0.1.2 - - [06/Dec/2024 09:28:18] "POST /recv HTTP/1.1" 200 -
-{'response': 'ok'}
-[DOWNLOAD] Secret of 127.0.1.2 received. size: 2342836
-[SECRET] Secret opened successfully.
-127.0.1.1 - - [06/Dec/2024 09:28:18] "POST /recv HTTP/1.1" 200 -
+127.0.1.1 - - [06/Dec/2024 09:51:54] "POST /recv HTTP/1.1" 200 -
 {'response': 'ok'}
 [DOWNLOAD] Secret of 127.0.1.1 received. size: 2342836
 [SECRET] Secret opened successfully.
@@ -51,7 +43,26 @@ Press CTRL+C to quit
 {'response': 'ok'}
 [UPLOAD] Sent aggregated weights to the master, size: 2342836
 [DOWNLOAD] Total download cost so far: 14057016
+[UPLOAD] Total upload cost so far: 4685672
+********************** [ROUND] Round 2 completed **********************
+{'response': 'ok'}
+127.0.1.2 - - [06/Dec/2024 09:52:05] "POST /recv HTTP/1.1" 200 -
+{'response': 'ok'}
+[DOWNLOAD] Secret of 127.0.1.2 received. size: 2342836
+[SECRET] Secret opened successfully.
+127.0.1.3 - - [06/Dec/2024 09:52:05] "POST /recv HTTP/1.1" 200 -
+{'response': 'ok'}
+127.0.1.1 - - [06/Dec/2024 09:52:05] "POST /recv HTTP/1.1" 200 -
+[DOWNLOAD] Secret of 127.0.1.3 received. size: 2342836
+[SECRET] Secret opened successfully.
+{'response': 'ok'}
+[DOWNLOAD] Secret of 127.0.1.1 received. size: 2342836
+[SECRET] Secret opened successfully.
+{'response': 'ok'}
+{'response': 'ok'}
+{'response': 'ok'}
+[UPLOAD] Sent aggregated weights to the master, size: 2342836
+[DOWNLOAD] Total download cost so far: 21085524
 [UPLOAD] Total upload cost so far: 7028508
 ********************** [ROUND] Round 3 completed **********************
 {'response': 'ok'}
- * Detected change in '/home/kali/fedshare/config.py', reloading

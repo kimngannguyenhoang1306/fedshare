@@ -80,3 +80,4 @@ Waiting to receive response from master server...
 [DOWNLOAD] Total download cost so far: 7028472
 [UPLOAD] Total upload cost so far: 7028508
 Training finished.
+ * Detected change in '/home/kali/fedshare/config.py', reloading
